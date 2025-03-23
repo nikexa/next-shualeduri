@@ -7,7 +7,16 @@ import { createContext, useState } from "react";
 import { checkboxesData } from "@/checkboxesData";
 import Chekboxes from "@/Components/chekboxes/Chekboxes";
 
-export const Contextia = createContext<ContextiaType | undefined>(undefined);
+export const Contextia = createContext<ContextiaType>({
+  isCopied: false,
+  setIsCopied: () => {},
+  password: "",
+  spassword: () => {},
+  value: 0,
+  setValue: () => {},
+  strenght: [],
+  setStrenght: () => {}
+});
 
 export interface ContextiaType {
   setIsCopied: React.Dispatch<React.SetStateAction<boolean>>;
