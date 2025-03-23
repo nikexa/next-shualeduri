@@ -1,4 +1,4 @@
-import { Contextia } from "@/Contex/Contextia";;
+import { Contextia } from "@/app/Contex/Contextia";
 import React, { useContext } from "react";
 
 const Confirbtn = () => {
