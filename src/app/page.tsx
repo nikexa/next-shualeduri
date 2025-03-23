@@ -25,7 +25,6 @@ export default function Home() {
     const [password,spassword]= useState("a1b1c1d1e1f1")
     const [isCopied,setIsCopied] = useState(false)
     const [value, setValue] = useState(4);
-    const [checked , setChecked] = useState(false)
     const [strenght, setStrenght] = useState(["Uppercase"])
 
   return (

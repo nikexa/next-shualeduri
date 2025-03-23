@@ -1,6 +1,6 @@
 "use client"
 import Image from "next/image";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import copy from '../../app/IMAGES/copy.png'
 import { Contextia } from "@/app/page";
 
