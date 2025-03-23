@@ -3,31 +3,11 @@ import InputLenght from "@/Components/InputLenght/InputLenght";
 import PassOutput from "@/Components/PassOutput/PassOutput";
 import Strenght from "@/Components/strenght/strenght";
 import Confirbtn from "@/Components/confirmbtn/confirbtn";
-import { createContext, useState } from "react";
+import {useState } from "react";
 import { checkboxesData } from "@/checkboxesData";
 import Chekboxes from "@/Components/chekboxes/Chekboxes";
 
-export const Contextia = createContext<ContextiaType>({
-  isCopied: false,
-  setIsCopied: () => {},
-  password: "",
-  spassword: () => {},
-  value: 0,
-  setValue: () => {},
-  strenght: [],
-  setStrenght: () => {}
-});
-
-export interface ContextiaType {
-  setIsCopied: React.Dispatch<React.SetStateAction<boolean>>;
-  isCopied: boolean;
-  password: string;
-  spassword: React.Dispatch<React.SetStateAction<string>>;
-  value: number;
-  setValue: React.Dispatch<React.SetStateAction<number>>;
-  strenght: string[];
-  setStrenght: React.Dispatch<React.SetStateAction<string[]>>;  
-}
+import { Contextia } from "@/Contex/Contextia";
 
 export default function Home() {
 

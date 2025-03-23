@@ -1,5 +1,5 @@
 "use client"
-import { Contextia } from "@/app/page";
+import { Contextia } from "@/Contex/Contextia";;
 import React, { useContext } from "react";
 
 interface ChekboxesProps {

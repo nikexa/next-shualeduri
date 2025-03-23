@@ -5,7 +5,7 @@ import Strong from '../../app/IMAGES/Strong.png'
 import Medium from '../../app/IMAGES/Medium.png'
 import Weak from '../../app/IMAGES/Weak.png'
 import TooWeak from '../../app/IMAGES/TooWeak.png'
-import { Contextia } from '@/app/page'
+import { Contextia } from "@/Contex/Contextia";
 
 const Strenght = () => {
 
