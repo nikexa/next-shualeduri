@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import React, { useContext } from "react";
-import Strong from "../../app/IMAGES/Strong.png";
-import Medium from "../../app/IMAGES/Medium.png";
-import Weak from "../../app/IMAGES/Weak.png";
-import TooWeak from "../../app/IMAGES/TooWeak.png";
+import Strong from "../../IMAGES/Strong.png";
+import Medium from "../../IMAGES/Medium.png";
+import Weak from "../../IMAGES/Weak.png";
+import TooWeak from "../../IMAGES/TooWeak.png";
 import { Contextia } from "@/app/Contex/Contextia";
 
 const Strenght = () => {
