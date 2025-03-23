@@ -1,6 +1,6 @@
 "use client"
 import Image from 'next/image'
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import Strong from '../../app/IMAGES/Strong.png'
 import Medium from '../../app/IMAGES/Medium.png'
 import Weak from '../../app/IMAGES/Weak.png'

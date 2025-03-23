@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import InputLenght from "@/Components/InputLenght/InputLenght";
 import PassOutput from "@/Components/PassOutput/PassOutput";
 import Strenght from "@/Components/strenght/strenght";

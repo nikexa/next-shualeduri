@@ -1,6 +1,6 @@
 "use client"
 import { Contextia } from "@/app/page";
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 
 interface ChekboxesProps {
   name: string,

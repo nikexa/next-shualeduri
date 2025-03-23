@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useContext, useState } from "react";
 import copy from '../../app/IMAGES/copy.png'
-import { Contextia, ContextiaType } from "@/app/page";
+import { Contextia } from "@/app/page";
 
 const PassOutput = () => {
 
